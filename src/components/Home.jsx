@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from './Footer'
 import AddTodo from '../containers/AddTodo'
 import VisibleTodoList from '../containers/VisibleTodoList'
+import AsyncApp from '../containers/AsyncApp'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <AddTodo />
         <VisibleTodoList />
         <Footer />
+        <AsyncApp />
       </div>
     </div>
   )
