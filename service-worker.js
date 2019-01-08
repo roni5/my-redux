@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "github.com/roni5/my-redux/precache-manifest.fc9e38a22f03e11f9fa11c4785fbc8d3.js"
+  "/my-redux/precache-manifest.ead0212bd2943b45fc9bac58266be7b3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("github.com/roni5/my-redux/index.html", {
+workbox.routing.registerNavigationRoute("/my-redux/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
