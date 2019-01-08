@@ -1,13 +1,13 @@
 {
-  "main.css": "/my-redux/static/css/main.95779253.chunk.css",
-  "main.js": "/my-redux/static/js/main.f2b0100c.chunk.js",
-  "main.js.map": "/my-redux/static/js/main.f2b0100c.chunk.js.map",
-  "static/js/1.a046775c.chunk.js": "/my-redux/static/js/1.a046775c.chunk.js",
-  "static/js/1.a046775c.chunk.js.map": "/my-redux/static/js/1.a046775c.chunk.js.map",
+  "main.css": "/my-redux/static/css/main.e9d70eec.chunk.css",
+  "main.js": "/my-redux/static/js/main.81c42a8e.chunk.js",
+  "main.js.map": "/my-redux/static/js/main.81c42a8e.chunk.js.map",
+  "static/js/1.0645851f.chunk.js": "/my-redux/static/js/1.0645851f.chunk.js",
+  "static/js/1.0645851f.chunk.js.map": "/my-redux/static/js/1.0645851f.chunk.js.map",
   "runtime~main.js": "/my-redux/static/js/runtime~main.0b62a5dd.js",
   "runtime~main.js.map": "/my-redux/static/js/runtime~main.0b62a5dd.js.map",
-  "static/css/main.95779253.chunk.css.map": "/my-redux/static/css/main.95779253.chunk.css.map",
+  "static/css/main.e9d70eec.chunk.css.map": "/my-redux/static/css/main.e9d70eec.chunk.css.map",
   "index.html": "/my-redux/index.html",
-  "precache-manifest.ead0212bd2943b45fc9bac58266be7b3.js": "/my-redux/precache-manifest.ead0212bd2943b45fc9bac58266be7b3.js",
+  "precache-manifest.51ab2a9a48b88c131e4267f7ef2e80ba.js": "/my-redux/precache-manifest.51ab2a9a48b88c131e4267f7ef2e80ba.js",
   "service-worker.js": "/my-redux/service-worker.js"
 }
