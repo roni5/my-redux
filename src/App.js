@@ -1,5 +1,6 @@
 // import 'babel-polyfill'
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 // import { render } from 'react-dom'
 import { selectSubreddit, fetchPosts } from './actions'
 import { createStore, applyMiddleware } from 'redux'
@@ -19,12 +20,14 @@ const store = createStore(rootReducer, initialState, applyMiddleware(...middlewa
 class App extends Component {
 
   render() {
+    console.log("This is the process.env", process.env.PUBLIC_URL)
     return (
       <Provider store={store}>
       <BrowserRouter>
         <div className="App">
-          <NavBar />
-           <Route  exact  path='/' component={Home} />
+            <NavBar />
+            <Route exact path={`/`} render={ (routerProps) => < Home routerProps={routerProps}  />} />
+            {/* <Route  exact  path='/' component={Home} /> */}
            <Route  path='/contact' component={Contact} />
            <Route  path='/about' component={About} />
 

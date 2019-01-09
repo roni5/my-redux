@@ -1,9 +1,11 @@
 {
+  "homepage": "https://roni5.github.io/my-redux/",
   "name": "my-redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cross-fetch": "^3.0.0",
+    "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -15,6 +17,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "deploy": "yarn build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
